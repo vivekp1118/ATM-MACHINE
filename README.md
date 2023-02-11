@@ -1,6 +1,14 @@
 # DIGITAL ATM
 
-It is an application written in java that uses servlet for business logic and JSP for the presentation layer. In the application, users can perform all the operations that can be performed on a real atm machine.  
+ATM Application is a web-based application built using Java that utilizes servlet for business logic and JSP for presentation layer. With this application, users can perform all the operations that can be performed on a real ATM machine.
+
+The goal of this project is to create a platform that mimics the functionality of a real-life ATM machine.
+
+## How it Works
+In order to use the ATM, the user must first generate their card number by registering their details. After generating the card number, the user can then use the ATM. When the user enters their ATM card number for the first time, it will check if the user has generated a pin or not. If the user has generated a pin, it will ask for the pin. If not, the user will be prompted to enter a new pin and confirm the pin.
+
+All the operations that the user will perform will be validated and updated to the database, ensuring that the data is always up-to-date.
+
 
 ## Features
 * Generate Card 
@@ -62,3 +70,5 @@ It is an application written in java that uses servlet for business logic and JS
 ## Update Pin 
 ![Update Pin Page](https://github.com/vivekp1118/ATM-MACHINE/blob/master/Readme%20Images/Update%20Pin.png)
 
+## Conclusion
+This ATM application provides users with a convenient and user-friendly platform to perform all the operations that can be performed on a real ATM machine. The use of servlets and JSP ensure efficient functionality and reliable data management.
