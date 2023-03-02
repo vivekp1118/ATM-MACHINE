@@ -1,16 +1,16 @@
-# DIGITAL ATM
+# DIGITAL ATM 
 
 ATM Application is a web-based application built using Java that utilizes servlet for business logic and JSP for presentation layer. With this application, users can perform all the operations that can be performed on a real ATM machine.
 
 The goal of this project is to create a platform that mimics the functionality of a real-life ATM machine.
 
-## How it Works
+## 🛠️ How it Works
 In order to use the ATM, the user must first generate their card number by registering their details. After generating the card number, the user can then use the ATM. When the user enters their ATM card number for the first time, it will check if the user has generated a pin or not. If the user has generated a pin, it will ask for the pin. If not, the user will be prompted to enter a new pin and confirm the pin.
 
 All the operations that the user will perform will be validated and updated to the database, ensuring that the data is always up-to-date.
 
 
-## Features
+## 🌟 Features
 * Generate Card 
 * Generate Pin 
 * Pin Validation 
@@ -19,13 +19,13 @@ All the operations that the user will perform will be validated and updated to t
 * Withdraw Balance 
 * View Mini-statement
 
-## Requirements
+## 📃 Requirements
 * JDK
 * GlassFish Server
 * PhpMyAdmin
 * Mysql Jar
  	
-## Technologies Used 
+## 🧑‍💻 Technologies Used 
 ![hTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ![](https://img.shields.io/badge/CSS-1572B6?&style=for-the-badge&logo=css3&logoColor=white)
